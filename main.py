@@ -118,6 +118,8 @@ plt.ylabel("Sales ($)")
 # plt.show()
 plt.close()
 
+
+
 """
 Sales Distribution by Segment: This shows how sales are distributed among different segments.
 """
@@ -125,6 +127,8 @@ df.groupby("Segment")["Sales"].sum().plot(kind="pie", autopct="%1.1f%%") # to pl
 plt.title("Sales Distribution by Segment") # to add the title
 # plt.show()
 plt.close()
+
+
 
 """
 Top-Performing Products: This identifies the best-selling products.
@@ -135,6 +139,8 @@ plt.xlabel("Total Sales ($)")
 # plt.show()
 plt.close()
 
+
+
 """
 Sales by Category and Sub-Category: This shows how sales are distributed among different categories and sub-categories.
 """
@@ -144,6 +150,8 @@ plt.ylabel("Sales ($)")
 plt.legend(title="Sub-Category")
 # plt.show()
 plt.close()
+
+
 
 """
 Sales Trends Over Time: This shows how sales have changed over the years.
@@ -158,6 +166,8 @@ plt.grid()
 # plt.show()
 plt.close()
 
+
+
 """
 Yearly Sales Growth: This shows how sales have grown over the years.
 """
@@ -167,6 +177,8 @@ plt.title("Yearly Sales Growth")
 plt.ylabel("Sales ($)")
 # plt.show()
 plt.close()
+
+
 
 """
 Top 5 Customers by Sales: This identifies the top 5 customers by sales.
